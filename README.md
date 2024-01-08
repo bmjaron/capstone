@@ -47,6 +47,8 @@ From the above visuals we can see that we have imbalance across the categories. 
 
 ![pic_3](https://github.com/bmjaron/capstone/assets/115658357/8a626f9b-fb52-49b0-92e7-674135b161c1)
 
+We also see that most of the words in political article descriptions are intuitive. They include politics-unique words like Trump, House and Senate.
+
 # IV. Text Cleaning
 
 In order to properly process our articles, we used a relatively conventional cleaning and tokenization process using NLTK's built-in functions. We first strip all text of special characters and punctuation using regular expression. We then used NLTK's tokenizer. We also stemmed and lemmatized, and removed all English stopwords.
