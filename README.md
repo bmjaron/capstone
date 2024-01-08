@@ -57,7 +57,7 @@ In order to properly process our articles, we used a relatively conventional cle
 
 ## A. Overview (and a word about our scoring metric)
 
-The model that we used was a logistic regression classifier, and we were able to achieve a f-1 score of 0.60. We also had precision of 94& with the negative class.
+The model that we used was a logistic regression classifier, and we were able to achieve a f-1 score of 0.60. We also had precision of 94% with the negative class.
 
 We felt that f-1 score, which is a score the measures the balance of maximizing rate of predicted positives while minimizing false positives, was the most approriate method to score our model. Our business problem is to deliver a model that helps readers isolate political articles. As a result we want as many true political articles as possible, while limiting falsely predicted political articles. 
 
@@ -76,7 +76,7 @@ Below we show the confusion matrix of our final model.
 ![download (1)](https://github.com/bmjaron/capstone/assets/115658357/58a8fab8-a3d6-4d08-9976-21a8114255b9)
 
 
-Based on our results, our recommendation to the stakeholder is the following. Use our model in order to help weed out the vast majority of non-political articles. Once that has been accomplished, the reader will have a much easier time using his human eyes to select the political articles from the non-political articles. This conforms with the findings we found in the Nielsen Norman Group [report](https://www.nngroup.com/articles/how-people-read-online/) that the human reader filters unrelated content according to his preferences. Although readers still prefer non-digital platforms to read news, our model provides an opening to discad the bulk of unrelated content and gives the reader a less overwhelming online experience.
+Based on our results, our recommendation to the stakeholder is the following. Use our model in order to help weed out the vast majority of non-political articles. Once that has been accomplished, the reader will have a much easier time using his human eyes to select the political articles from the non-political articles. This conforms with the findings we found in the Nielsen Norman Group [report](https://www.nngroup.com/articles/how-people-read-online/); readers like the control of hand-picking preferred articles! Our model h elps with that job; we can eliminate the vast majority of unrelated content and let the human reader do what he does best. This provides an opening to make the online reading experience less overwhelming and time-consuming.
 
-We understand that this project is only a cursory exploration of this particular problem. Time constraints and computational limitations meant that we couldn't exhaust model options for this large set. There is more room to explore whether or not a higher f-1 score can be obtained. Additionally, another point of exploration is attempting a multi-class classification problem.
+We understand that this project is only a cursory exploration of this particular problem. Time constraints and computational limitations meant that we couldn't exhaust model options for this large set. There is more room to explore whether or not a higher f-1 score can be obtained. Additionally, another point of exploration is attempting a multi-class classification problem. Finally, we can even recommend using this model as the basis of a program that picks articles based on perviously read articles. 
 
