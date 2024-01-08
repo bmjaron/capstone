@@ -32,9 +32,9 @@ Despite living in a world with convenient online access to information and news,
 
 As a result of this predicament, there is a need to build technology to hand-pick online articles to provide readers with the content they need without wasting time.
 
-Our target clientele are those who work in the politics, lobbyists, think tank employees, or any other individual that must read political articles for their work. In contrast to those who skim the news in their spare time, these individuals must be current with political news in order to properly perform their jobs. As such, it is necessary for them to be able to identify political articles and discard unrelated and distracting content.
+Our target stakeholders are those who work in politics, lobbyists, think tank employees, or any other individual that must read political articles for their work. In contrast to those who skim the news in their spare time, these individuals must be current with political news in order to properly perform their jobs. As such, it is necessary for them to be able to identify political articles and discard unrelated and distracting content.
 
-Our goal is to build a model that can predict a political article given a short description of that model. This will in turn provide our cleints with the ability to pin-down their required reading with efficiency.
+Our goal is to build a model that can predict a political article given a short description of that article. This will in turn provide our cleints with the ability to pin-down their required reading with efficiency.
 
 # III. Data and EDA
 
