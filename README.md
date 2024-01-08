@@ -69,14 +69,14 @@ An important element of our modeling process was converting our text data into f
 
 # VI. Final Model and Recommendation
 
-While our target metric of F-1 score is 0.60 and is not particularly astounding, our model still does provide real value. Although we might not be able to predict political articles with perfection, our model is incredibly effective at correctly identifying non-political articles. The precision score of predicting the non-politics class is 0.94! This makes sense given the imbalance of the set; a model ran on a set with many negatives will tend to predict negatives correctly.
+While our target metric (F-1) score 0.60 is not particularly astounding, our model still does provide real value. Although we might not be able to predict political articles with perfection, our model is incredibly effective at correctly identifying non-political articles. The precision score of predicting the non-politics class is 0.94! This makes sense given the imbalance of the set; a model ran on a set with many negatives will tend to predict negatives correctly.
 
 Below we show the confusion matrix of our final model.
 
 ![download (1)](https://github.com/bmjaron/capstone/assets/115658357/58a8fab8-a3d6-4d08-9976-21a8114255b9)
 
 
-Based on our results, our recommendation to the stakeholder is the following. Use our model in order to help weed out the vast majority of non-political articles. Once that has been accomplished, the reader will have a much easier time using his human eyes to select the political articles from the non-political articles. This conforms with the findings we found in the Nielsen Norman Group [report](https://www.nngroup.com/articles/how-people-read-online/); readers like the control of hand-picking preferred articles! Our model h elps with that job; we can eliminate the vast majority of unrelated content and let the human reader do what he does best. This provides an opening to make the online reading experience less overwhelming and time-consuming.
+Based on our results, our recommendation to the stakeholder is the following. Use our model in order to help weed out the vast majority of non-political articles. Once that has been accomplished, the reader will have a much easier time using his human eyes to select the political articles from the non-political articles. This conforms with the findings we found in the Nielsen Norman Group [report](https://www.nngroup.com/articles/how-people-read-online/); readers like the control of hand-picking preferred articles! Our model helps with that job; we can eliminate the vast majority of unrelated content and let the human reader do what he does best. This provides an opening to make the online reading experience less overwhelming and time-consuming.
 
 We understand that this project is only a cursory exploration of this particular problem. Time constraints and computational limitations meant that we couldn't exhaust model options for this large set. There is more room to explore whether or not a higher f-1 score can be obtained. Additionally, another point of exploration is attempting a multi-class classification problem. Finally, we can even recommend using this model as the basis of a program that picks articles based on perviously read articles. 
 
